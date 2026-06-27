@@ -1,0 +1,12 @@
+ResourceID,ProviderID,Title,Category,Audience,Website,Summary,Status,SourceURL,CreatedDate,ModifiedDate,LastVerified
+RES-0001,PROV-0018,AI Literacy Hub,Learning Portal,K-12 Educators,https://www.ilearnnh.org/ai-literacy-hub,"Free AI literacy portal with tutorials, classroom examples, prompt engineering, policy guidance and educational resources.",Active,https://www.ilearnnh.org/ai-literacy-hub,2026-06-27,2026-06-27,2026-06-27
+RES-0002,PROV-0020,NH K-12 AI Guidance Framework,Framework,School Leaders,https://www.nhste.org,"Statewide AI implementation framework and guidance for New Hampshire schools.",Active,https://www.nhste.org,2026-06-27,2026-06-27,2026-06-27
+RES-0003,PROV-0023,AI Guidance for Schools,Guidance,School Administrators,https://www.education.nh.gov,"State education resources supporting responsible AI implementation in K-12 education.",Active,https://www.education.nh.gov,2026-06-27,2026-06-27,2026-06-27
+
+RES-0004,PROV-0024,iLearnNH Training Catalogue,Training Catalog,K-12 Educators,https://www.ilearnnh.org/about/training-catalogue,"Catalog of free educator training including AI literacy, Canva, blended learning and classroom technology.",Active,https://www.ilearnnh.org/about/training-catalogue,2026-06-27,2026-06-27,2026-06-27
+
+RES-0005,PROV-0019,NotebookLM AI Podcast for NH K-12 AI Framework,Podcast,Educators,https://www.nhste.org,"NotebookLM-generated overview podcast accompanying the NH K-12 AI Guidance Framework.",Active,https://www.nhste.org,2026-06-27,2026-06-27,2026-06-27
+
+RES-0006,PROV-0018,Prompt Engineering Basics,Learning Module,K-12 Educators,https://www.ilearnnh.org/ai-literacy-hub,"Self-paced introduction to prompt engineering for educators using generative AI.",Active,https://www.ilearnnh.org/ai-literacy-hub,2026-06-27,2026-06-27,2026-06-27
+
+RES-0007,PROV-0018,AI in a Nutshell,Learning Module,General Educators,https://www.ilearnnh.org/ai-literacy-hub,"Introductory AI literacy resource explaining core concepts and classroom applications.",Active,https://www.ilearnnh.org/ai-literacy-hub,2026-06-27,2026-06-27,2026-06-27

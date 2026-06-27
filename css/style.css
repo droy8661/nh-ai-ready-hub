@@ -230,6 +230,54 @@ img {
   margin: 0 0 0.75rem;
 }
 
+.course-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.course-card {
+  padding: 1.75rem;
+  border-radius: 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: grid;
+  gap: 1rem;
+}
+
+.course-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.course-meta-text {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+}
+
+.course-badge {
+  background: var(--accent);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.course-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.muted {
+  color: var(--muted);
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   background: var(--surface);

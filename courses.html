@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | NH AI Ready Coordination Hub</title>
+  <title>Courses | NH AI Ready Coordination Hub</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/animations.css" />
 </head>
@@ -13,7 +13,6 @@
       <a class="brand" href="index.html">NH AI Ready</a>
       <button class="nav-toggle" aria-label="Open navigation" id="navToggle">Menu</button>
       <nav class="site-nav" id="siteNav">
-        <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="programs.html">Programs</a>
         <a href="courses.html">Courses</a>
@@ -23,30 +22,25 @@
         <a href="dashboard.html">Dashboard</a>
         <a href="assessment.html">Assessment</a>
         <a href="assistance.html">Assistance</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="container page-content">
     <section class="page-hero">
-      <h1>Contact</h1>
-      <p>Get in touch with the NH AI Ready Coordination Hub for questions, requests, and partnership inquiries.</p>
+      <h1>Courses</h1>
+      <p>Browse publicly offered courses from libraries, schools, online providers, and documentation sources. Data is loaded from a public Google Sheet.</p>
     </section>
 
     <section class="content-block">
-      <h2>Email</h2>
-      <p>contact@nhaireadyhub.org</p>
-    </section>
+      <div class="course-meta">
+        <p>Courses are rendered from a shared Google Sheet. Update the sheet to keep this page current.</p>
+      </div>
 
-    <section class="content-block">
-      <h2>Address</h2>
-      <p>New Hampshire AI Ready Coordination Hub</p>
-      <p>Concord, NH</p>
-    </section>
-
-    <section class="content-block">
-      <h2>Connect</h2>
-      <p>Request updates, event invitations, and technical assistance resources for your organization.</p>
+      <div class="course-list" id="coursesList" data-sheet-url="https://docs.google.com/spreadsheets/d/1mYGMGd6gXfOWePGAOxe75kO7_ORgzSrEkto8gsDXHMs/export?format=csv&gid=2022386868">
+        <p class="muted">Loading course listings...</p>
+      </div>
     </section>
   </main>
 
@@ -58,5 +52,7 @@
   </footer>
 
   <script src="js/navigation.js"></script>
+  <script src="js/sheets.js"></script>
+  <script src="js/courses.js"></script>
 </body>
 </html>

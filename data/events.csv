@@ -1,0 +1,18 @@
+EventID,ProviderID,Title,Date,Time,Location,City,County,Audience,RegistrationURL,Status,SourceURL,CreatedDate,ModifiedDate,LastVerified
+
+EVENT-0001,PROV-0017,NH AI Week,2026-04-13,All Day,Statewide,Multiple,Statewide,Public,https://www.aiinnh.org/nh-ai-week-2026,Completed,https://www.aiinnh.org/nh-ai-week-2026,2026-06-27,2026-06-27,2026-06-27
+
+EVENT-0002,PROV-0017,Public Data Personal AI with NotebookLM,2026-06-11,17:30,HRKNSS,Concord,Merrimack,Public,https://aiinnh.org/events,Completed,https://aiinnh.org/events,2026-06-27,2026-06-27,2026-06-27
+
+EVENT-0003,PROV-0017,AI App in an Hour Challenge,2026-06-18,17:30,Nashua Community College,Nashua,Hillsborough,Public,https://aiinnh.org/events,Completed,https://aiinnh.org/events,2026-06-27,2026-06-27,2026-06-27
+
+EVENT-0004,PROV-0019,5-Hour Virtual AI Workshop,2026-01-01,Self-Paced,Virtual,Online,Statewide,K-12 Educators,https://www.nhste.org/event-6197088,Active,https://www.nhste.org/event-6197088,2026-06-27,2026-06-27,2026-06-27
+
+EVENT-0005,PROV-0019,Plan Smarter with NotebookLM,2026-08-11,09:00,Delta Dental Conference Center,Concord,Merrimack,K-12 Educators,https://www.nhste.org,Scheduled,https://www.nhste.org,2026-06-27,2026-06-27,2026-06-27
+
+EVENT-0006,PROV-0022,The Ethics of Artificial Intelligence,2026-05-20,17:00,East Kingston Public Library,East Kingston,Rockingham,Public,https://www.eastkingstonlibrary.org/whats-new/the-ethics-of-artificial-intelligence,Completed,https://www.eastkingstonlibrary.org/whats-new/the-ethics-of-artificial-intelligence,2026-06-27,2026-06-27,2026-06-27
+EVENT-0007,PROV-0025,Christa McAuliffe Transforming Teaching & Technology Conference,2026-11-01,TBD,Grappone Conference Center,Concord,Merrimack,Educators,https://www.nhste.org/events,Scheduled,https://www.nhste.org/events,2026-06-27,2026-06-27,2026-06-27
+
+EVENT-0008,PROV-0019,Plan Smarter with NotebookLM - Session 2,2026-08-18,16:00,Delta Dental Conference Center,Concord,Merrimack,Educators,https://www.nhste.org/events,Scheduled,https://www.nhste.org/events,2026-06-27,2026-06-27,2026-06-27
+
+EVENT-0009,PROV-0019,Plan Smarter with NotebookLM - Session 3,2026-08-20,16:00,Delta Dental Conference Center,Concord,Merrimack,Educators,https://www.nhste.org/events,Scheduled,https://www.nhste.org/events,2026-06-27,2026-06-27,2026-06-27

@@ -10,6 +10,11 @@ The **NH AI Ready Coordination Hub** is a statewide digital platform designed to
 
 This portal will serve as the central coordination platform for AI education, workforce development, technical assistance, statewide partnerships, events, resources, and reporting.
 
+See [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) for the authoritative project specification, schema, and research workflow.
+
+For non-technical contributors
+- If someone needs to make simple content or data updates without using Git, see [CONTRIBUTING.md](CONTRIBUTING.md). The preferred, low-friction workflow is to edit the project's Google Sheet (the site reads sheet data at runtime when configured), which requires no Git knowledge and updates the site immediately.
+
 ---
 
 # Vision
