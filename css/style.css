@@ -64,8 +64,25 @@ img {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.5rem;
   align-items: center;
+}
+
+.site-nav a {
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.site-nav a:hover {
+  background: var(--surface-alt);
+  transform: translateY(-1px);
+}
+
+.site-nav a.active {
+  background: var(--primary);
+  color: white;
+  font-weight: 600;
 }
 
 .nav-toggle {

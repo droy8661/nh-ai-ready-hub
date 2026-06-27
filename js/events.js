@@ -47,9 +47,15 @@ async function loadEvents() {
   }
 
   try {
-    const rows = await fetchCsv('data/events.csv');
+    const sheetUrl = container.dataset.sheetUrl;
+    if (!sheetUrl) {
+      container.innerHTML = '<p class="muted">No Google Sheet URL configured for events.</p>';
+      return;
+    }
+
+    const rows = await fetchCsv(sheetUrl);
     if (rows.length < 2) {
-      container.innerHTML = '<p class="muted">No events found in the data file.</p>';
+      container.innerHTML = '<p class="muted">No events found in the sheet.</p>';
       return;
     }
 
@@ -57,7 +63,7 @@ async function loadEvents() {
     const records = rows.slice(1).filter((row) => row.some((cell) => cell && cell.trim()));
 
     if (!records.length) {
-      container.innerHTML = '<p class="muted">No events found in the data file.</p>';
+      container.innerHTML = '<p class="muted">No events found in the sheet.</p>';
       return;
     }
 
