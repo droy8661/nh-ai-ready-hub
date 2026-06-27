@@ -1,25 +1,28 @@
-function getCurrentPage() {
-  const path = window.location.pathname.split('/').pop() || 'index.html';
-  return path || 'index.html';
+function normalizeLinkPath(linkPath) {
+  if (!linkPath) {
+    return '';
+  }
+
+  const withoutHash = linkPath.split('#')[0].split('?')[0];
+  const normalized = withoutHash.replace(/^\.\//, '').replace(/^\//, '').replace(/\/$/, '');
+  return normalized || 'index.html';
 }
 
 function initializeNavigation() {
   const navToggle = document.getElementById('navToggle');
   const siteNav = document.getElementById('siteNav');
+  const currentPage = normalizeLinkPath(window.location.pathname);
 
   if (siteNav) {
-    const currentPage = getCurrentPage();
-
     siteNav.querySelectorAll('a[href]').forEach((link) => {
-      const linkPath = link.getAttribute('href');
-      if (!linkPath) {
-        return;
-      }
+      const linkPath = normalizeLinkPath(link.getAttribute('href'));
+      const isActive = linkPath === currentPage;
 
-      const normalizedLinkPath = linkPath.split('/').pop() || 'index.html';
-      if (normalizedLinkPath === currentPage) {
-        link.classList.add('active');
+      link.classList.toggle('active', isActive);
+      if (isActive) {
         link.setAttribute('aria-current', 'page');
+      } else {
+        link.removeAttribute('aria-current');
       }
     });
   }
@@ -27,6 +30,12 @@ function initializeNavigation() {
   if (navToggle && siteNav) {
     navToggle.addEventListener('click', () => {
       siteNav.classList.toggle('open');
+    });
+
+    siteNav.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        siteNav.classList.remove('open');
+      });
     });
   }
 }

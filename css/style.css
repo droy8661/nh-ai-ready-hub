@@ -332,10 +332,21 @@ img {
     background: white;
     padding: 1rem 0;
     border-top: 1px solid var(--border);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    box-shadow: 0 12px 24px rgba(8, 20, 35, 0.08);
   }
 
   .site-nav.open {
     display: flex;
+  }
+
+  .site-nav a {
+    width: 100%;
+    text-align: left;
   }
 
   .nav-toggle {
